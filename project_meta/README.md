@@ -1,10 +1,6 @@
 # 🧬 Genetic Algorithm for Neural Network Hyperparameter Optimization
 
-**ISGA Metaheuristics Course Project**  
-Author: Lojaine  
-Academic Year: 2024-2025
 
----
 
 ## 📋 Project Overview
 
@@ -327,26 +323,7 @@ This project demonstrates:
 
 ---
 
-## 👤 Author
 
-**Lojaine**  
-AI and Big Data Engineering Student  
-ISGA Marrakech - Class of 2025
-
-**Contact**:
-- GitHub: [Your GitHub]
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
-
----
-
-## 📝 License
-
-This project is created for educational purposes as part of the ISGA Metaheuristics course.
-
----
-
-## 🙏 Acknowledgments
 
 - Professor Oulad Sayad Younes for the Metaheuristics course
 - ISGA Marrakech for providing the academic framework
@@ -366,7 +343,3 @@ This project is created for educational purposes as part of the ISGA Metaheurist
 ✅ **Reproducible**: Seeds set for consistent results
 
 ---
-
-**Status**: ✅ Complete and ready for presentation
-
-**Last Updated**: December 2024
