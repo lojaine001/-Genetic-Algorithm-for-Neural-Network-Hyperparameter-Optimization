@@ -1,0 +1,2236 @@
+[
+  {
+    "generation": 1,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        256,
+        32
+      ],
+      "learning_rate": 0.017660561493899097,
+      "batch_size": 32,
+      "dropout": 0.3769596574663774,
+      "optimizer": "rmsprop",
+      "activation": "sigmoid"
+    },
+    "details": [
+      {
+        "generation": 1,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            256,
+            32
+          ],
+          "learning_rate": 0.017660561493899097,
+          "batch_size": 32,
+          "dropout": 0.3769596574663774,
+          "optimizer": "rmsprop",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.37618457968325036,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "rmsprop",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            128,
+            256
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.008142978495583542,
+          "optimizer": "adam",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            128
+          ],
+          "learning_rate": 0.007547074946681377,
+          "batch_size": 64,
+          "dropout": 0.21244619496038192,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            256,
+            256
+          ],
+          "learning_rate": 0.036883316397459495,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "rmsprop",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 4,
+          "layer_sizes": [
+            32,
+            32,
+            32,
+            16
+          ],
+          "learning_rate": 0.05740446198192677,
+          "batch_size": 128,
+          "dropout": 0.1516325118566179,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            256
+          ],
+          "learning_rate": 0.08259904033600278,
+          "batch_size": 16,
+          "dropout": 0.14207064984256734,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            32,
+            64
+          ],
+          "learning_rate": 0.04885245713998335,
+          "batch_size": 16,
+          "dropout": 0.21519001459110576,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 1,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.09049464954000343,
+          "batch_size": 16,
+          "dropout": 0.17987315264346432,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  },
+  {
+    "generation": 2,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 3,
+      "layer_sizes": [
+        32,
+        32,
+        64
+      ],
+      "learning_rate": 0.04885245713998335,
+      "batch_size": 16,
+      "dropout": 0.21519001459110576,
+      "optimizer": "sgd",
+      "activation": "sigmoid"
+    },
+    "details": [
+      {
+        "generation": 2,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            32,
+            64
+          ],
+          "learning_rate": 0.04885245713998335,
+          "batch_size": 16,
+          "dropout": 0.21519001459110576,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.09049464954000343,
+          "batch_size": 16,
+          "dropout": 0.17987315264346432,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.1,
+          "batch_size": 16,
+          "dropout": 0.37618457968325036,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.37618457968325036,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 4,
+          "layer_sizes": [
+            64,
+            128,
+            16,
+            256
+          ],
+          "learning_rate": 0.007547074946681377,
+          "batch_size": 64,
+          "dropout": 0.21244619496038192,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            256
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.008142978495583542,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            256
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.14207064984256734,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            32
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 4,
+          "layer_sizes": [
+            32,
+            32,
+            32,
+            16
+          ],
+          "learning_rate": 0.06950688706276976,
+          "batch_size": 32,
+          "dropout": 0.1516325118566179,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 2,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  },
+  {
+    "generation": 3,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 4,
+      "layer_sizes": [
+        32,
+        32,
+        32,
+        16
+      ],
+      "learning_rate": 0.06950688706276976,
+      "batch_size": 32,
+      "dropout": 0.1516325118566179,
+      "optimizer": "sgd",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "generation": 3,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 4,
+          "layer_sizes": [
+            32,
+            32,
+            32,
+            16
+          ],
+          "learning_rate": 0.06950688706276976,
+          "batch_size": 32,
+          "dropout": 0.1516325118566179,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.14207064984256734,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.37618457968325036,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 16,
+          "dropout": 0.1516325118566179,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            32,
+            64
+          ],
+          "learning_rate": 0.04885245713998335,
+          "batch_size": 16,
+          "dropout": 0.21519001459110576,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            256,
+            256
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.008142978495583542,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.008142978495583542,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.1,
+          "batch_size": 16,
+          "dropout": 0.37618457968325036,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 3,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            32
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  },
+  {
+    "generation": 4,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 1,
+      "layer_sizes": [
+        16
+      ],
+      "learning_rate": 0.1,
+      "batch_size": 16,
+      "dropout": 0.37618457968325036,
+      "optimizer": "sgd",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "generation": 4,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.1,
+          "batch_size": 16,
+          "dropout": 0.37618457968325036,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            32
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            32
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.008142978495583542,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 4,
+          "layer_sizes": [
+            16,
+            256,
+            32,
+            32
+          ],
+          "learning_rate": 0.06950688706276976,
+          "batch_size": 16,
+          "dropout": 0.1516325118566179,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            16,
+            32
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            32,
+            64
+          ],
+          "learning_rate": 0.04885245713998335,
+          "batch_size": 16,
+          "dropout": 0.21519001459110576,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 4,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  },
+  {
+    "generation": 5,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 3,
+      "layer_sizes": [
+        32,
+        32,
+        64
+      ],
+      "learning_rate": 0.04885245713998335,
+      "batch_size": 16,
+      "dropout": 0.21519001459110576,
+      "optimizer": "sgd",
+      "activation": "sigmoid"
+    },
+    "details": [
+      {
+        "generation": 5,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            32,
+            64
+          ],
+          "learning_rate": 0.04885245713998335,
+          "batch_size": 16,
+          "dropout": 0.21519001459110576,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.1,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            16,
+            32
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 64,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 4,
+          "layer_sizes": [
+            64,
+            16,
+            128,
+            64
+          ],
+          "learning_rate": 0.04403946547039262,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            64,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 5,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  },
+  {
+    "generation": 6,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 1,
+      "layer_sizes": [
+        64
+      ],
+      "learning_rate": 0.06040754134319473,
+      "batch_size": 16,
+      "dropout": 0.04069666793390653,
+      "optimizer": "sgd",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "generation": 6,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06292832351572358,
+          "batch_size": 16,
+          "dropout": 0.4770319886236816,
+          "optimizer": "rmsprop",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 4,
+          "layer_sizes": [
+            64,
+            16,
+            128,
+            64
+          ],
+          "learning_rate": 0.04403946547039262,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            16,
+            32
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 64,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 6,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            16,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  },
+  {
+    "generation": 7,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        128,
+        64
+      ],
+      "learning_rate": 0.07737219266332916,
+      "batch_size": 32,
+      "dropout": 0.351873651316552,
+      "optimizer": "sgd",
+      "activation": "sigmoid"
+    },
+    "details": [
+      {
+        "generation": 7,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            16,
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "rmsprop",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            128,
+            16
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.005023109298684672,
+          "optimizer": "adam",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            16
+          ],
+          "learning_rate": 0.09286545175791532,
+          "batch_size": 64,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            16,
+            16
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 64,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 7,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  },
+  {
+    "generation": 8,
+    "best_fitness": 0.001,
+    "avg_fitness": 0.0010000000000000002,
+    "worst_fitness": 0.001,
+    "std_fitness": 2.168404344971009e-19,
+    "best_chromosome": {
+      "n_layers": 1,
+      "layer_sizes": [
+        128
+      ],
+      "learning_rate": 0.07737219266332916,
+      "batch_size": 64,
+      "dropout": 0.351873651316552,
+      "optimizer": "sgd",
+      "activation": "sigmoid"
+    },
+    "details": [
+      {
+        "generation": 8,
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 64,
+          "dropout": 0.351873651316552,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 16,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.06040754134319473,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "sgd",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            64
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "tanh"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      },
+      {
+        "generation": 8,
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.07737219266332916,
+          "batch_size": 32,
+          "dropout": 0.04069666793390653,
+          "optimizer": "adam",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.001,
+        "accuracy": 0.001,
+        "training_time": 1.0,
+        "n_parameters": 1000,
+        "norm_accuracy": 0.001,
+        "norm_time": 0.5,
+        "norm_complexity": 0.5,
+        "train_accuracy": 0.001,
+        "val_accuracy": 0.001,
+        "error": "'Variable' object has no attribute 'get_shape'"
+      }
+    ]
+  }
+]

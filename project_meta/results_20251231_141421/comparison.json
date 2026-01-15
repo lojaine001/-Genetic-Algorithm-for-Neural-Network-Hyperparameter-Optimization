@@ -1,0 +1,20 @@
+{
+  "Genetic Algorithm": {
+    "fitness": 0.8309999704360962,
+    "accuracy": 0.8289999961853027,
+    "training_time": 6.633705377578735,
+    "n_parameters": 118282
+  },
+  "Random Search": {
+    "fitness": 0.8109999895095825,
+    "accuracy": 0.8109999895095825,
+    "training_time": 4.5094664096832275,
+    "n_parameters": 235146
+  },
+  "Default Config": {
+    "fitness": 0.8109999895095825,
+    "accuracy": 0.8109999895095825,
+    "training_time": 3.6285016536712646,
+    "n_parameters": 109386
+  }
+}

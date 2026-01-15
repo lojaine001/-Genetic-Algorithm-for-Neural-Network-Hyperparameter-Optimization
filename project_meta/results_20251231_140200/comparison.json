@@ -1,0 +1,20 @@
+{
+  "Genetic Algorithm": {
+    "fitness": 0.001,
+    "accuracy": 0.001,
+    "training_time": 1.0,
+    "n_parameters": 1000
+  },
+  "Random Search": {
+    "fitness": 0.001,
+    "accuracy": 0.001,
+    "training_time": 1.0,
+    "n_parameters": 1000
+  },
+  "Default Config": {
+    "fitness": 0.001,
+    "accuracy": 0.001,
+    "training_time": 1.0,
+    "n_parameters": 1000
+  }
+}

@@ -1,0 +1,1792 @@
+[
+  {
+    "generation": 1,
+    "best_fitness": 0.8159999847412109,
+    "avg_fitness": 0.7875000059604644,
+    "worst_fitness": 0.7250000238418579,
+    "std_fitness": 0.03053275919672432,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        128,
+        128
+      ],
+      "learning_rate": 0.008090569905416364,
+      "batch_size": 64,
+      "dropout": 0.2144912365818803,
+      "optimizer": "sgd",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            32,
+            128
+          ],
+          "learning_rate": 0.0025244293526544147,
+          "batch_size": 32,
+          "dropout": 0.29458848566560497,
+          "optimizer": "rmsprop",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.734000027179718,
+        "accuracy": 0.734000027179718,
+        "train_accuracy": 0.6901999711990356,
+        "training_time": 3.3551220893859863,
+        "n_parameters": 31690
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.09306435735629584,
+          "optimizer": "rmsprop",
+          "activation": "relu"
+        },
+        "fitness": 0.8130000233650208,
+        "accuracy": 0.8130000233650208,
+        "train_accuracy": 0.84579998254776,
+        "training_time": 3.202134370803833,
+        "n_parameters": 42122
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            256,
+            64
+          ],
+          "learning_rate": 0.004547169558210151,
+          "batch_size": 64,
+          "dropout": 0.32377218267113067,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.781000018119812,
+        "accuracy": 0.781000018119812,
+        "train_accuracy": 0.7752000093460083,
+        "training_time": 2.9972102642059326,
+        "n_parameters": 83978
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            256,
+            128,
+            128
+          ],
+          "learning_rate": 0.0016392470481366376,
+          "batch_size": 64,
+          "dropout": 0.040884110607939485,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7929999828338623,
+        "accuracy": 0.7929999828338623,
+        "train_accuracy": 0.8047999739646912,
+        "training_time": 2.967993974685669,
+        "n_parameters": 251658
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8159999847412109,
+        "accuracy": 0.8159999847412109,
+        "train_accuracy": 0.8307999968528748,
+        "training_time": 2.391521453857422,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            128,
+            64
+          ],
+          "learning_rate": 0.007075261178527743,
+          "batch_size": 32,
+          "dropout": 0.26450532742708405,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8040000200271606,
+        "accuracy": 0.8040000200271606,
+        "train_accuracy": 0.8309999704360962,
+        "training_time": 3.569974899291992,
+        "n_parameters": 125898
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            32
+          ],
+          "learning_rate": 0.003863249627887745,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.800000011920929,
+        "accuracy": 0.800000011920929,
+        "train_accuracy": 0.7929999828338623,
+        "training_time": 1.8826639652252197,
+        "n_parameters": 25450
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            64
+          ],
+          "learning_rate": 0.006734734226339165,
+          "batch_size": 32,
+          "dropout": 0.2436524022667953,
+          "optimizer": "adam",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.8019999861717224,
+        "accuracy": 0.8019999861717224,
+        "train_accuracy": 0.8468000292778015,
+        "training_time": 3.7127718925476074,
+        "n_parameters": 109386
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            64,
+            256
+          ],
+          "learning_rate": 0.0038566088734007134,
+          "batch_size": 32,
+          "dropout": 0.27384570039594985,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8069999814033508,
+        "accuracy": 0.8069999814033508,
+        "train_accuracy": 0.8082000017166138,
+        "training_time": 3.666445732116699,
+        "n_parameters": 73610
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 1,
+          "layer_sizes": [
+            128
+          ],
+          "learning_rate": 0.004071531391521057,
+          "batch_size": 32,
+          "dropout": 0.08439313743453059,
+          "optimizer": "rmsprop",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.7250000238418579,
+        "accuracy": 0.7250000238418579,
+        "train_accuracy": 0.8952000141143799,
+        "training_time": 3.172205686569214,
+        "n_parameters": 101770
+      }
+    ]
+  },
+  {
+    "generation": 2,
+    "best_fitness": 0.828000009059906,
+    "avg_fitness": 0.7869000017642975,
+    "worst_fitness": 0.7139999866485596,
+    "std_fitness": 0.02931024207441522,
+    "best_chromosome": {
+      "n_layers": 3,
+      "layer_sizes": [
+        128,
+        128,
+        64
+      ],
+      "learning_rate": 0.0007728125474199968,
+      "batch_size": 32,
+      "dropout": 0.27384570039594985,
+      "optimizer": "adam",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.09306435735629584,
+          "optimizer": "rmsprop",
+          "activation": "relu"
+        },
+        "fitness": 0.8050000071525574,
+        "accuracy": 0.8050000071525574,
+        "train_accuracy": 0.8435999751091003,
+        "training_time": 3.1330840587615967,
+        "n_parameters": 42122
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8069999814033508,
+        "accuracy": 0.8069999814033508,
+        "train_accuracy": 0.8343999981880188,
+        "training_time": 2.4367589950561523,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            64
+          ],
+          "learning_rate": 0.006734734226339165,
+          "batch_size": 32,
+          "dropout": 0.2436524022667953,
+          "optimizer": "sgd",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.7139999866485596,
+        "accuracy": 0.7139999866485596,
+        "train_accuracy": 0.6672000288963318,
+        "training_time": 3.1742210388183594,
+        "n_parameters": 109386
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            64,
+            64,
+            256
+          ],
+          "learning_rate": 0.0038566088734007134,
+          "batch_size": 32,
+          "dropout": 0.26450532742708405,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.7739999890327454,
+        "accuracy": 0.7739999890327454,
+        "train_accuracy": 0.7937999963760376,
+        "training_time": 3.7431905269622803,
+        "n_parameters": 73610
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.09306435735629584,
+          "optimizer": "rmsprop",
+          "activation": "relu"
+        },
+        "fitness": 0.7739999890327454,
+        "accuracy": 0.7739999890327454,
+        "train_accuracy": 0.8452000021934509,
+        "training_time": 3.107780694961548,
+        "n_parameters": 42122
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.002456245880253053,
+          "batch_size": 64,
+          "dropout": 0.05292473949001,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8059999942779541,
+        "accuracy": 0.8059999942779541,
+        "train_accuracy": 0.8162000179290771,
+        "training_time": 2.4235808849334717,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            64
+          ],
+          "learning_rate": 0.006734734226339165,
+          "batch_size": 32,
+          "dropout": 0.09306435735629584,
+          "optimizer": "rmsprop",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.7770000100135803,
+        "accuracy": 0.7770000100135803,
+        "train_accuracy": 0.8790000081062317,
+        "training_time": 3.3840837478637695,
+        "n_parameters": 109386
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.006734734226339165,
+          "batch_size": 32,
+          "dropout": 0.2436524022667953,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.7900000214576721,
+        "accuracy": 0.7900000214576721,
+        "train_accuracy": 0.7401999831199646,
+        "training_time": 3.408700942993164,
+        "n_parameters": 42122
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "rmsprop",
+          "activation": "relu"
+        },
+        "fitness": 0.7940000295639038,
+        "accuracy": 0.7940000295639038,
+        "train_accuracy": 0.7896000146865845,
+        "training_time": 3.1689846515655518,
+        "n_parameters": 42122
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            128,
+            64
+          ],
+          "learning_rate": 0.0007728125474199968,
+          "batch_size": 32,
+          "dropout": 0.27384570039594985,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.828000009059906,
+        "accuracy": 0.828000009059906,
+        "train_accuracy": 0.8543999791145325,
+        "training_time": 4.068769454956055,
+        "n_parameters": 125898
+      }
+    ]
+  },
+  {
+    "generation": 3,
+    "best_fitness": 0.8220000267028809,
+    "avg_fitness": 0.7623000085353852,
+    "worst_fitness": 0.6650000214576721,
+    "std_fitness": 0.055864208516518195,
+    "best_chromosome": {
+      "n_layers": 3,
+      "layer_sizes": [
+        32,
+        256,
+        32
+      ],
+      "learning_rate": 0.0003949924724368964,
+      "batch_size": 32,
+      "dropout": 0.2542737777057601,
+      "optimizer": "adam",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8130000233650208,
+        "accuracy": 0.8130000233650208,
+        "train_accuracy": 0.8389999866485596,
+        "training_time": 2.4217827320098877,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            128,
+            64
+          ],
+          "learning_rate": 0.0007728125474199968,
+          "batch_size": 32,
+          "dropout": 0.27384570039594985,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8100000023841858,
+        "accuracy": 0.8100000023841858,
+        "train_accuracy": 0.8465999960899353,
+        "training_time": 4.090160369873047,
+        "n_parameters": 125898
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            128,
+            64
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 32,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8029999732971191,
+        "accuracy": 0.8029999732971191,
+        "train_accuracy": 0.848800003528595,
+        "training_time": 3.4626479148864746,
+        "n_parameters": 125898
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            128,
+            64
+          ],
+          "learning_rate": 0.0007728125474199968,
+          "batch_size": 32,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7480000257492065,
+        "accuracy": 0.7480000257492065,
+        "train_accuracy": 0.7224000096321106,
+        "training_time": 3.462819814682007,
+        "n_parameters": 125898
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.05292473949001,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.6650000214576721,
+        "accuracy": 0.6650000214576721,
+        "train_accuracy": 0.6439999938011169,
+        "training_time": 3.060476541519165,
+        "n_parameters": 42122
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            64,
+            32
+          ],
+          "learning_rate": 0.0007728125474199968,
+          "batch_size": 32,
+          "dropout": 0.27384570039594985,
+          "optimizer": "adam",
+          "activation": "sigmoid"
+        },
+        "fitness": 0.7580000162124634,
+        "accuracy": 0.7580000162124634,
+        "train_accuracy": 0.7394000291824341,
+        "training_time": 3.9002320766448975,
+        "n_parameters": 111146
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.09306435735629584,
+          "optimizer": "sgd",
+          "activation": "tanh"
+        },
+        "fitness": 0.7149999737739563,
+        "accuracy": 0.7149999737739563,
+        "train_accuracy": 0.7228000164031982,
+        "training_time": 2.9318113327026367,
+        "n_parameters": 36138
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            128,
+            64
+          ],
+          "learning_rate": 0.0007728125474199968,
+          "batch_size": 64,
+          "dropout": 0.27384570039594985,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.6790000200271606,
+        "accuracy": 0.6790000200271606,
+        "train_accuracy": 0.623199999332428,
+        "training_time": 2.6175947189331055,
+        "n_parameters": 125898
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.31430353099103203,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8100000023841858,
+        "accuracy": 0.8100000023841858,
+        "train_accuracy": 0.8194000124931335,
+        "training_time": 2.4184036254882812,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8220000267028809,
+        "accuracy": 0.8220000267028809,
+        "train_accuracy": 0.7982000112533569,
+        "training_time": 3.439039945602417,
+        "n_parameters": 42122
+      }
+    ]
+  },
+  {
+    "generation": 4,
+    "best_fitness": 0.8220000267028809,
+    "avg_fitness": 0.8075999975204468,
+    "worst_fitness": 0.7540000081062317,
+    "std_fitness": 0.01847809258827508,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        128,
+        128
+      ],
+      "learning_rate": 0.008090569905416364,
+      "batch_size": 64,
+      "dropout": 0.2144912365818803,
+      "optimizer": "sgd",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8220000267028809,
+        "accuracy": 0.8220000267028809,
+        "train_accuracy": 0.8378000259399414,
+        "training_time": 2.4529201984405518,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8100000023841858,
+        "accuracy": 0.8100000023841858,
+        "train_accuracy": 0.807200014591217,
+        "training_time": 3.4322900772094727,
+        "n_parameters": 42122
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            128,
+            128,
+            64
+          ],
+          "learning_rate": 0.002389488649309049,
+          "batch_size": 64,
+          "dropout": 0.31430353099103203,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7540000081062317,
+        "accuracy": 0.7540000081062317,
+        "train_accuracy": 0.7092000246047974,
+        "training_time": 2.6590662002563477,
+        "n_parameters": 125898
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8159999847412109,
+        "accuracy": 0.8159999847412109,
+        "train_accuracy": 0.8360000252723694,
+        "training_time": 2.4130966663360596,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            256
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8050000071525574,
+        "accuracy": 0.8050000071525574,
+        "train_accuracy": 0.8432000279426575,
+        "training_time": 2.5223026275634766,
+        "n_parameters": 136074
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8149999976158142,
+        "accuracy": 0.8149999976158142,
+        "train_accuracy": 0.8374000191688538,
+        "training_time": 2.435842514038086,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            256,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.24289899755637268,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8159999847412109,
+        "accuracy": 0.8159999847412109,
+        "train_accuracy": 0.8443999886512756,
+        "training_time": 2.7300612926483154,
+        "n_parameters": 235146
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.007002210724708146,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8149999976158142,
+        "accuracy": 0.8149999976158142,
+        "train_accuracy": 0.8312000036239624,
+        "training_time": 2.4323225021362305,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8159999847412109,
+        "accuracy": 0.8159999847412109,
+        "train_accuracy": 0.8104000091552734,
+        "training_time": 3.1847012042999268,
+        "n_parameters": 36138
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.31430353099103203,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8069999814033508,
+        "accuracy": 0.8069999814033508,
+        "train_accuracy": 0.8443999886512756,
+        "training_time": 3.77107310295105,
+        "n_parameters": 118282
+      }
+    ]
+  },
+  {
+    "generation": 5,
+    "best_fitness": 0.828000009059906,
+    "avg_fitness": 0.7975000023841858,
+    "worst_fitness": 0.6620000004768372,
+    "std_fitness": 0.04603096923328475,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        128,
+        128
+      ],
+      "learning_rate": 0.008090569905416364,
+      "batch_size": 64,
+      "dropout": 0.2144912365818803,
+      "optimizer": "sgd",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8199999928474426,
+        "accuracy": 0.8199999928474426,
+        "train_accuracy": 0.8208000063896179,
+        "training_time": 3.1902198791503906,
+        "n_parameters": 36138
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7960000038146973,
+        "accuracy": 0.7960000038146973,
+        "train_accuracy": 0.8399999737739563,
+        "training_time": 2.4234676361083984,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            32
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 64,
+          "dropout": 0.005659346902425533,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8080000281333923,
+        "accuracy": 0.8080000281333923,
+        "train_accuracy": 0.8425999879837036,
+        "training_time": 2.3025381565093994,
+        "n_parameters": 26506
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2144912365818803,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8149999976158142,
+        "accuracy": 0.8149999976158142,
+        "train_accuracy": 0.8325999975204468,
+        "training_time": 3.2270922660827637,
+        "n_parameters": 36138
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.828000009059906,
+        "accuracy": 0.828000009059906,
+        "train_accuracy": 0.8392000198364258,
+        "training_time": 2.4282281398773193,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8029999732971191,
+        "accuracy": 0.8029999732971191,
+        "train_accuracy": 0.8375999927520752,
+        "training_time": 2.3972530364990234,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.007002210724708146,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8090000152587891,
+        "accuracy": 0.8090000152587891,
+        "train_accuracy": 0.8388000130653381,
+        "training_time": 2.427412748336792,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8220000267028809,
+        "accuracy": 0.8220000267028809,
+        "train_accuracy": 0.8525999784469604,
+        "training_time": 3.7478997707366943,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            256,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8119999766349792,
+        "accuracy": 0.8119999766349792,
+        "train_accuracy": 0.8510000109672546,
+        "training_time": 2.6771955490112305,
+        "n_parameters": 235146
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.24289899755637268,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.6620000004768372,
+        "accuracy": 0.6620000004768372,
+        "train_accuracy": 0.59579998254776,
+        "training_time": 2.880213499069214,
+        "n_parameters": 36138
+      }
+    ]
+  },
+  {
+    "generation": 6,
+    "best_fitness": 0.8220000267028809,
+    "avg_fitness": 0.7850999951362609,
+    "worst_fitness": 0.6759999990463257,
+    "std_fitness": 0.04240153075010362,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        128,
+        128
+      ],
+      "learning_rate": 0.0003949924724368964,
+      "batch_size": 32,
+      "dropout": 0.2542737777057601,
+      "optimizer": "adam",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8220000267028809,
+        "accuracy": 0.8220000267028809,
+        "train_accuracy": 0.853600025177002,
+        "training_time": 3.8242082595825195,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8019999861717224,
+        "accuracy": 0.8019999861717224,
+        "train_accuracy": 0.8393999934196472,
+        "training_time": 2.4261815547943115,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8059999942779541,
+        "accuracy": 0.8059999942779541,
+        "train_accuracy": 0.7906000018119812,
+        "training_time": 2.3513760566711426,
+        "n_parameters": 36138
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7400000095367432,
+        "accuracy": 0.7400000095367432,
+        "train_accuracy": 0.6919999718666077,
+        "training_time": 3.339124917984009,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8029999732971191,
+        "accuracy": 0.8029999732971191,
+        "train_accuracy": 0.8411999940872192,
+        "training_time": 2.3977510929107666,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8109999895095825,
+        "accuracy": 0.8109999895095825,
+        "train_accuracy": 0.8407999873161316,
+        "training_time": 2.451648473739624,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.6759999990463257,
+        "accuracy": 0.6759999990463257,
+        "train_accuracy": 0.6051999926567078,
+        "training_time": 2.402233600616455,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8059999942779541,
+        "accuracy": 0.8059999942779541,
+        "train_accuracy": 0.8511999845504761,
+        "training_time": 3.2648160457611084,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 32,
+          "dropout": 0.2144912365818803,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8069999814033508,
+        "accuracy": 0.8069999814033508,
+        "train_accuracy": 0.8565999865531921,
+        "training_time": 3.20845890045166,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2144912365818803,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.777999997138977,
+        "accuracy": 0.777999997138977,
+        "train_accuracy": 0.769599974155426,
+        "training_time": 2.394660472869873,
+        "n_parameters": 36138
+      }
+    ]
+  },
+  {
+    "generation": 7,
+    "best_fitness": 0.828000009059906,
+    "avg_fitness": 0.8018000066280365,
+    "worst_fitness": 0.7360000014305115,
+    "std_fitness": 0.02472165296057582,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        128,
+        128
+      ],
+      "learning_rate": 0.0003949924724368964,
+      "batch_size": 32,
+      "dropout": 0.2542737777057601,
+      "optimizer": "adam",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8159999847412109,
+        "accuracy": 0.8159999847412109,
+        "train_accuracy": 0.8378000259399414,
+        "training_time": 2.402721643447876,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8130000233650208,
+        "accuracy": 0.8130000233650208,
+        "train_accuracy": 0.8605999946594238,
+        "training_time": 3.7035529613494873,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8230000138282776,
+        "accuracy": 0.8230000138282776,
+        "train_accuracy": 0.8313999772071838,
+        "training_time": 2.4935035705566406,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7360000014305115,
+        "accuracy": 0.7360000014305115,
+        "train_accuracy": 0.6779999732971191,
+        "training_time": 3.194723606109619,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8080000281333923,
+        "accuracy": 0.8080000281333923,
+        "train_accuracy": 0.829800009727478,
+        "training_time": 2.4459943771362305,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 32,
+          "dropout": 0.2144912365818803,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.7870000004768372,
+        "accuracy": 0.7870000004768372,
+        "train_accuracy": 0.7824000120162964,
+        "training_time": 3.718197822570801,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 3,
+          "layer_sizes": [
+            32,
+            256,
+            64
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8050000071525574,
+        "accuracy": 0.8050000071525574,
+        "train_accuracy": 0.7972000241279602,
+        "training_time": 2.3371787071228027,
+        "n_parameters": 50666
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            32,
+            256
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7960000038146973,
+        "accuracy": 0.7960000038146973,
+        "train_accuracy": 0.8222000002861023,
+        "training_time": 2.8319475650787354,
+        "n_parameters": 36138
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8059999942779541,
+        "accuracy": 0.8059999942779541,
+        "train_accuracy": 0.8521999716758728,
+        "training_time": 3.6815173625946045,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.828000009059906,
+        "accuracy": 0.828000009059906,
+        "train_accuracy": 0.8529999852180481,
+        "training_time": 3.939380407333374,
+        "n_parameters": 118282
+      }
+    ]
+  },
+  {
+    "generation": 8,
+    "best_fitness": 0.8309999704360962,
+    "avg_fitness": 0.7927000045776367,
+    "worst_fitness": 0.6790000200271606,
+    "std_fitness": 0.04591088598578616,
+    "best_chromosome": {
+      "n_layers": 2,
+      "layer_sizes": [
+        128,
+        128
+      ],
+      "learning_rate": 0.0003949924724368964,
+      "batch_size": 32,
+      "dropout": 0.2542737777057601,
+      "optimizer": "adam",
+      "activation": "relu"
+    },
+    "details": [
+      {
+        "individual": 1,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.008090569905416364,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.8140000104904175,
+        "accuracy": 0.8140000104904175,
+        "train_accuracy": 0.8343999981880188,
+        "training_time": 2.393767833709717,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 2,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8149999976158142,
+        "accuracy": 0.8149999976158142,
+        "train_accuracy": 0.855400025844574,
+        "training_time": 3.711069345474243,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 3,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.7310000061988831,
+        "accuracy": 0.7310000061988831,
+        "train_accuracy": 0.6858000159263611,
+        "training_time": 3.184450626373291,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 4,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8140000104904175,
+        "accuracy": 0.8140000104904175,
+        "train_accuracy": 0.8532000184059143,
+        "training_time": 3.7719247341156006,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 5,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8149999976158142,
+        "accuracy": 0.8149999976158142,
+        "train_accuracy": 0.8557999730110168,
+        "training_time": 3.7580056190490723,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 6,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 64,
+          "dropout": 0.2542737777057601,
+          "optimizer": "sgd",
+          "activation": "relu"
+        },
+        "fitness": 0.6790000200271606,
+        "accuracy": 0.6790000200271606,
+        "train_accuracy": 0.6096000075340271,
+        "training_time": 2.4124228954315186,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 7,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8090000152587891,
+        "accuracy": 0.8090000152587891,
+        "train_accuracy": 0.8583999872207642,
+        "training_time": 3.6725497245788574,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 8,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8180000185966492,
+        "accuracy": 0.8180000185966492,
+        "train_accuracy": 0.8619999885559082,
+        "training_time": 3.643470287322998,
+        "n_parameters": 118282
+      },
+      {
+        "individual": 9,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            256,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8009999990463257,
+        "accuracy": 0.8009999990463257,
+        "train_accuracy": 0.8755999803543091,
+        "training_time": 4.495274066925049,
+        "n_parameters": 235146
+      },
+      {
+        "individual": 10,
+        "chromosome": {
+          "n_layers": 2,
+          "layer_sizes": [
+            128,
+            128
+          ],
+          "learning_rate": 0.0003949924724368964,
+          "batch_size": 32,
+          "dropout": 0.2542737777057601,
+          "optimizer": "adam",
+          "activation": "relu"
+        },
+        "fitness": 0.8309999704360962,
+        "accuracy": 0.8309999704360962,
+        "train_accuracy": 0.8600000143051147,
+        "training_time": 3.6885597705841064,
+        "n_parameters": 118282
+      }
+    ]
+  }
+]
