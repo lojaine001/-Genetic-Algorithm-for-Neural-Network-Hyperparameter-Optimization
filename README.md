@@ -1,1 +1,1 @@
-# -Genetic-Algorithm-for-Neural-Network-Hyperparameter-Optimization
+# Genetic-Algorithm-for-Neural-Network-Hyperparameter-Optimization
